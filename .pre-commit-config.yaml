@@ -1,0 +1,16 @@
+---
+fail_fast: false
+repos:
+  - repo: https://github.com/digitalpulp/pre-commit-php
+    rev: 1.3.0
+    hooks:
+      - id: php-cbf
+        verbose: true
+        stages: [manual]
+        types: [php]
+  - repo: https://github.com/digitalpulp/pre-commit-php
+    rev: 1.3.0
+    hooks:
+      - id: php-cs
+        verbose: true
+        types: [php]
