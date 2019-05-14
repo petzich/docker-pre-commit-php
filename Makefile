@@ -1,4 +1,4 @@
-# Makefile for petzi/docker-pre-commit
+# Makefile for petzi/docker-pre-commit-php
 # Make targets to help in the development of this docker image
 
 .DEFAULT_GOAL := help
